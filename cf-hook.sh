@@ -3,8 +3,8 @@
 #set -x
 umask 027
 
-. hooks/cloudflare/cf.cfg.sh
-. hooks/cloudflare/cf.inc.sh
+. hooks/cfle/cf.cfg.sh
+. hooks/cfle/cf.inc.sh
 
 if [ $# -lt 1 ] ; then
     echo "Usage: $0 action param1 ... paramN"
